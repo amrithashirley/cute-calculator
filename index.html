@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="bow">
+        <div id="bow-img">
+            <img src="bow.webp" alt="" srcset="">
+        </div>
+    </div>
+    
+    <div id="circle">
+        <div id="round"></div>
+    </div>
+    <div id="ears">
+        <div id="right-ear">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="#F7ABAA" class="bi bi-triangle-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M7.022 1.566a1.13 1.13 0 0 1 1.96 0l6.857 11.667c.457.778-.092 1.767-.98 1.767H1.144c-.889 0-1.437-.99-.98-1.767z"/>
+              </svg>
+        </div>
+        <div id="left-ear">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="#F7ABAA" class="bi bi-triangle-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M7.022 1.566a1.13 1.13 0 0 1 1.96 0l6.857 11.667c.457.778-.092 1.767-.98 1.767H1.144c-.889 0-1.437-.99-.98-1.767z"/>
+              </svg>
+        </div>
+    </div>
+    <div id="calc">
+    <div class="calculator">
+        <input type="text" id="display" disabled placeholder="0">
+        <div class="buttons" id="top-row">
+            <button class="calc-butt" id="all-clear">AC</button>
+            <button class="calc-butt" id="delete">DEL</button>
+            <button class="calc-butt">%</button>
+            <button class="operator-button">/</button>
+        </div>
+        <div class="buttons" id="second-row">
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operator-button">*</button>
+        </div>
+        <div class="buttons" id="third-row">
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="operator-button">-</button>
+        </div>
+        <div class="buttons" id="last-row">
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="operator-button">+</button>
+        </div>
+        <div class="buttons" id="last-row">
+            <button class="number">00</button>
+            <button class="number">0</button>
+            <button class="number">.</button>
+            <button class="operator-button" id="equals">=</button>
+        </div>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
